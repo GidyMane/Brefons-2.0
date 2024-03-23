@@ -1,6 +1,9 @@
 .container{
-    position: sticky;
+    position: fixed;
     top: 40px;
+    height: 100vh;
+    padding-bottom: 16px;
+    overflow-y: scroll;
   }
   
   .user{
@@ -42,7 +45,7 @@
   
   .logout{
     padding: 20px;
-    margin: 5px 0px;
+    margin: 5px 10px;
     display: flex;
     align-items: center;
     gap: 10px;

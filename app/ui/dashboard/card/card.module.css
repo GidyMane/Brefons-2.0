@@ -6,6 +6,8 @@
     gap: 20px;
     cursor: pointer;
     width: 100%;
+    overflow: hidden;
+    flex-wrap: wrap;
   }
   
   .container:hover{
@@ -16,6 +18,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
   }
   
   .number {
@@ -24,8 +28,8 @@
   }
   
   .detail {
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 10px;
+    font-weight: 200;
   }
   
   .positive {

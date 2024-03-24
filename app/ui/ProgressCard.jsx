@@ -51,15 +51,15 @@ const ProgressCard = () => {
   return (
     <div className="md:grid grid-cols-2 gap-4">
       {progresscontent.map((data, index) => (
-        <div className='bg-white shadow-md p-4 my-2 rounded-md col-span-1' key={index}>
+        <div className='bg-[#182237] shadow-md p-4 my-2 rounded-md col-span-1' key={index}>
 
           <div key={index}>
             <h3 className='my-2 text-gray-500 capitalize font-medium'>{data.title}</h3>
             {data.components.map((item, itemIndex) => (
               <div className='flex  flex-row justify-between items-center gap-4 my-4' key={itemIndex}>
-                <Image src={item.image} alt={item.alt} height={30} width={30} />
+                <Image className='rounded-full' src={item.image} alt={item.alt} height={30} width={30} />
                 <div className='flex flex-col gap-2 text-black w-full rounded-full'>
-                  <p className='font-medium capitalize'>{item.title}</p>
+                  <p className='font-medium text-white capitalize'>{item.title}</p>
                   <div className="relative h-2 w-full rounded-full bg-gray-300">
                     <div className={`h-full absolute inset-0 rounded-full`} style={{
                       backgroundColor: data.color,
@@ -68,7 +68,7 @@ const ProgressCard = () => {
 
                   </div>
                 </div>
-                <p className="text-black mt-6">{item.progress}%</p>
+                <p className="text-white mt-6">{item.progress}%</p>
               </div>
             ))}
 

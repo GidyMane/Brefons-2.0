@@ -6,7 +6,7 @@ const Card = ({ title, content }) => {
     <div className={styles.container}>
       <MdSupervisedUserCircle size={24} />
       <div className={styles.texts}>
-        <span className={styles.title}>{title}</span>
+        <span className="flex flex-wrap">{title}</span>
         <span className={styles.number}>{content}</span>
       </div>
     </div>

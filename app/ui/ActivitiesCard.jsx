@@ -7,37 +7,37 @@ const activities = [
         activities: [
             {
                 title: "Outdoor Adventure",
-                activityname: "Hiking",
-                activitycaption: "Enjoy.",
+                activityname: "Turkana",
+                activitycaption: "637 Activities",
                 up: true,
                 amount: 3
             },
             {
                 title: "Cultural Experience",
-                activityname: "Museum Tour",
-                activitycaption: "Discover",
+                activityname: "Marsabit",
+                activitycaption: "89 Activities",
                 up: true,
                 amount: 3
             },
             {
                 title: "Wellness Retreat",
-                activityname: "Yoga Session",
-                activitycaption: "Rejuvenate",
+                activityname: "West Pokot",
+                activitycaption: "88 Activities",
                 up: false,
                 amount: 2
             },
             {
                 title: "Culinary Delight",
-                activityname: "Cooking Class",
-                activitycaption: "Learn",
+                activityname: "Baringo",
+                activitycaption: "582 Activities",
                 up: true,
                 amount: 3
 
             },
             {
                 title: "Thrilling Excursion",
-                activityname: "Zip Line Adventure",
-                activitycaption: "Experience",
+                activityname: "Meru",
+                activitycaption: "423 Activities",
                 up: true,
                 amount: 3
             }
@@ -48,36 +48,36 @@ const activities = [
         activities: [
             {
                 title: "Outdoor Adventure",
-                activityname: "Hiking",
-                activitycaption: "Enjoy.",
+                activityname: "Construction of boreholes",
+                activitycaption: "52 Activities",
                 up:true,
                 amount:3
             },
             {
                 title: "Cultural Experience",
-                activityname: "Museum Tour",
-                activitycaption: "Discover",
+                activityname: "Trainings",
+                activitycaption: "45 Activities",
                 up:true,
                 amount:3
             },
             {
                 title: "Wellness Retreat",
-                activityname: "Yoga Session",
-                activitycaption: "Rejuvenate",
+                activityname: "Extension Services",
+                activitycaption: "64 Activities",
                 up:true,
                 amount:3
             },
             {
                 title: "Culinary Delight",
-                activityname: "Cooking Class",
-                activitycaption: "Learn",
+                activityname: "Nutrition Services",
+                activitycaption: "24 Activities",
                 up:true,
                 amount:3
             },
             {
                 title: "Thrilling Excursion",
-                activityname: "Zip Line Adventure",
-                activitycaption: "Experience",
+                activityname: "Farm Activities",
+                activitycaption: "20 Activities",
                 up:false,
                 amount:1
             }

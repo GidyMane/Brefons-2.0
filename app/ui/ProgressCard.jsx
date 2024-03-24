@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const progresscontent = [
   {
-    title: "Project Constructed Progress",
+    title: "Projects Constructed Progress",
     color: "#FFA500",
     components: [
       {
@@ -24,7 +24,7 @@ const progresscontent = [
     ]
   },
   {
-    title: "Project Rehabilitated Progress",
+    title: "Projects Rehabilitated Progress",
     color: "#00FF00",
     components: [
       {

@@ -4,7 +4,7 @@ import './ui/globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Mane Software',
+  title: 'Brefons',
   description: 'Developed by Mane Software',
 }
 

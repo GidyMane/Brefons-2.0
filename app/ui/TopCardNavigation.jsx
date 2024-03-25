@@ -36,7 +36,7 @@ const TopCardNavigation = () => {
   return (
     <div className="md:grid grid-cols-3 gap-4 w-full">
       {navs.map((nav, index) => (
-        <div key={index} className="col-span-1 my-2 relative bg-white dark:bg-black rounded-full flex flex-row justify-between items-center gap-4 px-3 py-2">
+        <div key={index} className="col-span-1 my-2 relative bg-white dark:bg-white rounded-full flex flex-row justify-between items-center gap-4 px-3 py-2">
         
 
             <select
